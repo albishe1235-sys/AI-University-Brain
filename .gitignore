@@ -1,0 +1,16 @@
+
+# Private university data
+data/
+
+# Configuration that may contain private settings
+config.json
+
+# Python temporary files
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+
+# Model files
+models/

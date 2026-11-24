@@ -5,3 +5,9 @@ pillow
 pandas
 opencv-python-headless
 easyocr
+pypdf
+python-docx
+python-pptx
+openpyxl
+python-dotenv
+pytesseract
