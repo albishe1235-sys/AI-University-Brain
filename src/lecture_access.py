@@ -1,4 +1,3 @@
-
 from lecture_pipeline import add_lecture
 from user_manager import authorize_session
 
@@ -7,12 +6,13 @@ def upload_lecture_for_user(
     token,
     file_path,
     metadata,
-    database_path
+    users_database_path,
+    lectures_database_path
 ):
 
     user = authorize_session(
         token,
-        database_path,
+        users_database_path,
         "upload_lecture"
     )
 
@@ -25,5 +25,5 @@ def upload_lecture_for_user(
     return add_lecture(
         file_path,
         metadata,
-        database_path
+        lectures_database_path
     )
