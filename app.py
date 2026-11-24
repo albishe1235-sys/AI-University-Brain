@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+<<<<<< HEAD
 
 import streamlit as st
 
