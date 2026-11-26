@@ -1,1 +1,10 @@
-[]
+[
+    {
+        "username": "Admin",
+        "email": "b6927572@gmail.com",
+        "role": "admin",
+        "is_super_admin": true,
+        "salt": "4ae7d4fd7c4b16ac6c5b0ebfa2c34eff",
+        "password_hash": "fa5afe93ddb85ab95d51ca1080ef20c1b815e3f839bfe6fcd5d6f173600dbe4e"
+    }
+]
